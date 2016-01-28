@@ -72,7 +72,7 @@ namespace OraWinApp
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.ToString());
+                    //MessageBox.Show(ex.ToString());
                     AppendText(string.Format("{0}: Error:{1}", DateTime.Now, ex.Message));
                 }
 
